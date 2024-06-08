@@ -1,0 +1,24 @@
+/* src/components/Navbar.css */
+
+nav {
+    background: #003366; /* Darker navy blue */
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: #ffdd57; /* Yellow text */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffffff; /* White text on hover */
+  }
+  

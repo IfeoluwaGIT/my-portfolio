@@ -1,0 +1,28 @@
+/* src/components/AboutMe.css */
+
+#aboutme {
+    background: #003366; /* Darker navy blue */
+    color: #ffdd57; /* Yellow text */
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #002b5c; /* Slightly lighter navy blue */
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-me .content {
+    line-height: 1.6;
+    font-size: 1.2rem;
+  }
+  

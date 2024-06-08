@@ -1,0 +1,52 @@
+/* src/styles/global.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #001f3f; /* Navy blue background */
+  color: #fff; /* White text */
+}
+
+a {
+  color: #ffdd57; /* Yellow links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* src/components/ProjectList.css */
+
+#projects {
+  padding: 2rem;
+  background: #002b5c; /* Darker navy blue */
+  color: #ffdd57; /* Yellow text */
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.project {
+  background: #004080; /* Lighter navy blue */
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 5px solid #ffdd57; /* Yellow accent */
+}
+
+
+ 

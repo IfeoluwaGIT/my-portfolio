@@ -1,0 +1,39 @@
+/* src/components/Header.css */
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: #002b5c; /* Darker navy blue */
+    color: #ffdd57; /* Yellow text */
+  }
+  
+  .logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    border-radius: 150px;
+    position: relative;
+    margin-left: 45%;
+  
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+
+  .animation-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+   
+
+    
+
+  
