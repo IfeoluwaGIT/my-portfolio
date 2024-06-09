@@ -66,23 +66,22 @@ header {
   
   @media (max-width: 480px) {
     .header-container{
-      display: block;
-      margin: 1.7rem ; 
-      justify-content: center;
+     
       
     }
     .logo {    
-    margin-left: 50px;
-    width: 150px;
+    
+    width: 100px;
     border-radius: 0%;
     }
   
    header h1 {
-      font-size: 1.2em;
+      font-size: 0.9em;
     }
   
    header p {
-      font-size: 0.9em;
+      font-size: 0.7em;
+  
     }
     .description {
       white-space: normal; /* Removes line breaks */
@@ -91,6 +90,7 @@ header {
       width: 200px;
       text-align: center;
       margin: auto;
+      margin-bottom: 40px;
       
     }
     p.description{
