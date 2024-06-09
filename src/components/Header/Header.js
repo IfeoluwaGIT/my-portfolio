@@ -10,7 +10,7 @@ const Header = () => {
       <img src={iboy} alt="Logo" className="logo" />
         <div className="text-container">
       <h1>Hello! My name is Ifeoluwa Duro-Bello</h1>
-      <p>Young Web Developer with a solid foundation in HTML, CSS, JavaScript, and React,<br></br> eager to expand my skills and tackle new challenges in <br></br>web development. </p>
+      <p className="description">Young Web Developer with a solid foundation in HTML, CSS, JavaScript, and React, eager to expand my skills and tackle new challenges in web development.</p>
       </div>
       </div>
     </header>

@@ -19,6 +19,9 @@ header {
     justify-content: space-between;
     align-items: center;
   }  
+  .description {
+    white-space: pre-line; /* Preserves line breaks */
+  }
   .text-container {
     justify-content: center;
     text-align: center;
@@ -40,7 +43,7 @@ header {
     display: inline-block;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     header {
       padding: 10px;
     }
@@ -62,18 +65,32 @@ header {
   }
   
   @media (max-width: 480px) {
-    .logo {
-      width: 80px;
+    .header-container{
+      display: block;
+      margin-left: 30px;
+      
+    }
+    .logo {    
+    margin-left: 70px;
     }
   
-    h1 {
+   header h1 {
       font-size: 1.2em;
     }
   
-    p {
+   header p {
       font-size: 0.9em;
     }
+    .description {
+      white-space: normal; /* Removes line breaks */
+    }
+    .text-container{
+      width: 150px;
+      text-align: center;
+      
+    }
   }
+
 
    
 
