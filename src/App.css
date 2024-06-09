@@ -54,5 +54,16 @@ footer{
   text-align: center;
 }
 
+@media (max-width: 850px) {
+  #projects{
+    font-size: 0.7rem;
+  }
+  }
 
- 
+  @media (max-width: 480px) {
+    #projects {
+      font-size: 1.2em;
+    }
+    }
+
+
