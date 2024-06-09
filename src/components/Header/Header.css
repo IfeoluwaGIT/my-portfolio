@@ -68,10 +68,13 @@ header {
     .header-container{
       display: block;
       margin-left: 30px;
+      justify-content: center;
       
     }
     .logo {    
-    margin-left: 70px;
+    margin-left: 50px;
+    width: 150px;
+    border-radius: 0%;
     }
   
    header h1 {
@@ -88,6 +91,9 @@ header {
       width: 150px;
       text-align: center;
       
+    }
+    p.description{
+      white-space: normal; /* Removes line breaks */
     }
   }
 
